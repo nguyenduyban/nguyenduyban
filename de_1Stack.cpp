@@ -1,4 +1,4 @@
-// ĐỀ CÓ STACK 
+// ĐỀ CÓ TÍNH TỔNG STACK
 #include "Header.h"
 void init_Stack(Stack& s) {
 	s.top = NULL;
