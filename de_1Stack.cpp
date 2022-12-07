@@ -42,52 +42,67 @@ void themPhanTu(Stack& s) {
 	cout << "\nStack sau khi them phan tu : \t";
 }
 
-//cau 2
-void khoiTao(NODEPTR& list) {
+//câu 2
+#include <iostream>
+using namespace std;
+typedef int TYPEINFO;
+struct NODE {
+	TYPEINFO data;
+	NODE* link;
+};
+typedef NODE* NODEPTR;
+void khoitao(NODEPTR& list);
+int isEmpty(NODEPTR list);
+NODEPTR tao_Node(TYPEINFO x);
+NODEPTR themDau(NODEPTR& list, TYPEINFO x);
+void xuat_DSLK(NODEPTR list);
+int demLe(NODEPTR ds);
+void chen(NODEPTR& list);
+#include "Header.h"
+void khoitao(NODEPTR& list) {
 	list = NULL;
 }
-bool ktRong(NODEPTR list) {
-	if (list == NULL) return true;
-	else return false;
+int isEmpty(NODEPTR list) {
+	return (list == NULL ? 1 : 0);
 }
-NODEPTR tao_Node(int x) {
-	NODEPTR p = new node;
+NODEPTR tao_Node(TYPEINFO x) {
+	NODEPTR p;
+	p= new NODE;
 	p->data = x;
 	p->link = NULL;
 	return p;
 }
-NODEPTR themDau(NODEPTR& list, int x) {
+NODEPTR themDau(NODEPTR& list, TYPEINFO x) {
 	NODEPTR p = tao_Node(x);
-	if (ktRong(list) == true)
-		list = p;
-	else {
-		p->link = list;
-		list = p;
-	}
+	p->link = list;
+	list = p;
 	return p;
 }
-void xuatDSLK(NODEPTR ds) {
-	for (NODEPTR p = ds; p != NULL; p = p->link)
-		cout << p->data << "\t";
+void xuat_DSLK(NODEPTR list) {
+	NODEPTR p = list;
+	while (p != NULL) {
+		cout << p->data << " ";
+		p = p->link;
+	}
 }
-//câu a : đếm các node giá trị lẻ dslk
-int demLe(NODEPTR ds) {
+//câu a
+int demLe(NODEPTR list) {
 	int dem = 0;
-	for (NODEPTR p = ds; p != NULL; p = p->link)
+	for (NODEPTR p = list; p != NULL; p = p->link)
 		if (p->data % 2 != 0)
 			dem++;
 	return dem;
 }
-//câu b : chèn node có giá trị x , k 
-void chen(NODEPTR& ds) {
+/câu b
+void chen(NODEPTR& list) {
 	int x, k;
 	cout << "\nNhap gia tri can chen: ";
 	cin >> x;
-	cout << "\nNhap gia tri o truoc gia tri can chen: ";
+	cout << "\nNhap gia tri truoc gia tri can chen: ";
 	cin >> k;
 	NODEPTR alter = tao_Node(x);
-	NODEPTR p = ds;
-	NODEPTR q = ds;
+	NODEPTR p = list;
+	NODEPTR q = list;
 	while (p->link != NULL and p->data != k)
 	{
 		q = p;
@@ -97,19 +112,7 @@ void chen(NODEPTR& ds) {
 	alter->link = p;
 
 }
-//câu c
-void tachDSLK(NODEPTR& ds) {
-	int n;
-	cout << "\nNhap gia tri : ";
-	cin >> n;
-	NODEPTR p = ds;
-	while (p != NULL and p->data != n) {
-		p = p->link;
-	}
-	if (p->link != NULL) {
-		p->link = NULL;
-	}
-}
+
 //câu 3;
 #include"Header.h"
 void main() {
@@ -128,21 +131,17 @@ void main() {
 	cout << "\n\n";
 }
 
+#include "Header.h"
 void main() {
 	NODEPTR list;
-	khoiTao(list);
-	themDau(list, 5);
-	themDau(list, 10);
-	themDau(list, 15);
-	themDau(list, 20);
-	cout << "Danh sach lien ket: \n";
-	xuatDSLK(list);
-	cout << "\nDem gia tri le: " << demLe(list);
-
+	khoitao(list);
+	themDau(list, 13);
+	themDau(list, 12);
+	themDau(list, 16);
+	themDau(list, 29);
+	cout << "Danh sach lien ket: \t ";
+	xuat_DSLK(list);
+	cout << "\nDem gia tri le: \t " << demLe(list);
 	chen(list);
-	xuatDSLK(list);
-
-	cout << "\nTao danh sach lien ket moi: ";
-	tachDSLK(list);
-	xuatDSLK(list);
+	xuat_DSLK(list);
 }
