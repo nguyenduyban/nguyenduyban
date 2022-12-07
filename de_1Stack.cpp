@@ -42,6 +42,7 @@ void themPhanTu(Stack& s) {
 	cout << "\nStack sau khi them phan tu : \t";
 }
 
+--
 //câu 2
 #include <iostream>
 using namespace std;
@@ -58,6 +59,13 @@ NODEPTR themDau(NODEPTR& list, TYPEINFO x);
 void xuat_DSLK(NODEPTR list);
 int demLe(NODEPTR ds);
 void chen(NODEPTR& list);
+void laynNodeDau(NODEPTR list, NODEPTR& newList);
+//void dichNodeBoi3LenDau(NODEPTR& list);
+---
+#include "Header.h"
+void khoitao(NODEPTR& list) {
+	list = NULL;
+}
 #include "Header.h"
 void khoitao(NODEPTR& list) {
 	list = NULL;
@@ -93,7 +101,7 @@ int demLe(NODEPTR list) {
 			dem++;
 	return dem;
 }
-/câu b
+//câu b
 void chen(NODEPTR& list) {
 	int x, k;
 	cout << "\nNhap gia tri can chen: ";
@@ -112,7 +120,53 @@ void chen(NODEPTR& list) {
 	alter->link = p;
 
 }
-
+//câu c
+void laynNodeDau(NODEPTR list, NODEPTR& newList) {
+	NODEPTR p = list;
+		NODEPTR q = newList;
+		int n;
+		int m = 1;	
+		cout << "\nNhap so luong Node dau muon lay: "; 
+		cin >> n;
+		while (m<=n)
+		{
+			m++;
+			cout << p->data << " ";
+			themDau(q, p->data);
+			p = p->link;
+		}	
+}
+//câu d
+/*void dichNodeBoi3LenDau(NODEPTR& list) {
+	NODEPTR p = list;
+		NODEPTR before = list;
+		NODEPTR q;
+		while (p!=NULL)
+		{
+			if (p->data % 3 == 0)
+			{
+				if (p == list)
+				{
+					p = p->link;
+					continue;
+				}
+				else
+				{
+					themDau(list, p->data);
+					before->link = p->link;
+					q = p; 
+					delete q;
+					p = before->link;
+				}
+			}
+			else
+			{
+				before = p;
+				p = p->link;
+			}
+		}
+}*/
+---
 //câu 3;
 #include"Header.h"
 void main() {
@@ -144,4 +198,7 @@ void main() {
 	cout << "\nDem gia tri le: \t " << demLe(list);
 	chen(list);
 	xuat_DSLK(list);
+	NODEPTR newList;
+	laynNodeDau(list, newList);
+	//dichNodeBoi3LenDau(list);
 }
