@@ -50,14 +50,14 @@ bool ktRong(NODEPTR list) {
 	if (list == NULL) return true;
 	else return false;
 }
-NODEPTR makeNode(int x) {
+NODEPTR tao_Node(int x) {
 	NODEPTR p = new node;
 	p->data = x;
 	p->link = NULL;
 	return p;
 }
 NODEPTR themDau(NODEPTR& list, int x) {
-	NODEPTR p = makeNode(x);
+	NODEPTR p = tao_Node(x);
 	if (ktRong(list) == true)
 		list = p;
 	else {
@@ -85,7 +85,7 @@ void chen(NODEPTR& ds) {
 	cin >> x;
 	cout << "\nNhap gia tri o truoc gia tri can chen: ";
 	cin >> k;
-	NODEPTR alter = makeNode(x);
+	NODEPTR alter = tao_Node(x);
 	NODEPTR p = ds;
 	NODEPTR q = ds;
 	while (p->link != NULL and p->data != k)
@@ -126,4 +126,23 @@ void main() {
 	themPhanTu(s);
 	output_Stack(s);
 	cout << "\n\n";
+}
+
+void main() {
+	NODEPTR list;
+	khoiTao(list);
+	themDau(list, 5);
+	themDau(list, 10);
+	themDau(list, 15);
+	themDau(list, 20);
+	cout << "Danh sach lien ket: \n";
+	xuatDSLK(list);
+	cout << "\nDem gia tri le: " << demLe(list);
+
+	chen(list);
+	xuatDSLK(list);
+
+	cout << "\nTao danh sach lien ket moi: ";
+	tachDSLK(list);
+	xuatDSLK(list);
 }
