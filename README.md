@@ -33,11 +33,11 @@
 <a href="https://github.com/nguyenduyban/nguyenduyban">
   <img align="center" src="https://github-profile-trophy.vercel.app/?username=nguyenduyban" />
 </a>
-
 </div>
 <br>
 <br>
-<h2 align="center"> Where to find me </h2>
+<h2 align="center"> Where to find me 
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
 <!-- https://icons8.com -->
 <div align="center">
@@ -51,12 +51,10 @@
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="duybanit-email" />
   </a>
 </div>
-
-<br>
-
 <br>
 <h2 align="center">📑 My Favorites Quote 📑
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+  <br>
 <a href="#" target="_blank">
   <img src="svg/duybanit-quotes.svg" width="846" height="150" alt="Duy Bản IT" />
 </a>
