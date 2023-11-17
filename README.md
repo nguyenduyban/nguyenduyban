@@ -24,7 +24,7 @@
 &nbsp;
 
 <br>
-<h2 align="center">🔥 GitHub Stats 🔥</h2>
+<h2 align="center">🔥 GitHub Stats 🔥
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <br>
