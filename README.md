@@ -67,3 +67,4 @@ Where to find me
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenduyban&repo=kithuatlaptrinh&theme=shadow_red" />
 </a>
 
+<a href="#"><img align="center" src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=26F71B&center=SAI&vCenter=SAI&repeat=%C4%90%C3%9ANG+V%E1%BA%ACY&random=SAI&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!" alt="Duy Ban IT github stats" /></a> <a href="#"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenduyban&layout=compact&theme=shadow_red&hide_border=true" /></a> 
