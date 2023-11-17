@@ -24,7 +24,8 @@
 &nbsp;
 
 <br>
-<h2 align="center">🔥 GitHub Stats 🔥</h2>
+🔥 GitHub Stats 🔥
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <!-- https://github.com/anuraghazra/github-readme-stats -->
 <br>
   <a href="#"><img align="center" src="https://github-readme-stats.vercel.app/api?username=nguyenduyban&show_icons=true&include_all_commits=true&theme=shadow_red&hide_border=true" alt="Duy Ban IT github stats" /></a> <a href="#"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nguyenduyban&layout=compact&theme=shadow_red&hide_border=true" /></a> 
@@ -58,13 +59,10 @@
 <a href="#" target="_blank">
   <img src="svg/duybanit-quotes.svg" width="846" height="150" alt="Duy Bản IT" />
 </a>
-
-
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="https://github.com/nguyenduyban/nguyenduyban">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenduyban&repo=nguyenduyban&theme=shadow_red" />
 </a><a href="https://github.com/nguyenduyban/kithuatlaptrinh">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenduyban&repo=kithuatlaptrinh&theme=shadow_red" />
 </a>
-
 
