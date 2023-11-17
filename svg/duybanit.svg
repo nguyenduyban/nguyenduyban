@@ -64,7 +64,7 @@
         .skills_icon.nodejs>img {
           width: 74px;
         }
-			</style>
+			</style> 
 			<div class="container">
         <div class="earth"></div>
         <div class="skills">
