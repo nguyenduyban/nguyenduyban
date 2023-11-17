@@ -52,34 +52,16 @@
           left: 80%;
           transform: translate(-50%, -50%) rotateX(5deg) rotateY(5deg) rotateZ(5deg);
         }
-        .greeting {
-          overflow: hidden;
-          font-weight: bold;
-					font-size: 36px;
-					line-height: 1.3;
-					letter-spacing: 5px;
-          animation:  typing 5s forwards;
-          margin-left: 70px;
-          white-space: nowrap;
-        }
-				.skills {
-          display: inline-flex;
-          margin: 30px 0 0 100px;
-          gap: 7px;
-        }
-        .skills_icon>img {
-          width: 80px;
-          height: 80px;
-        }
-        .skills_icon.nodejs>img {
-          width: 74px;
-        }
+        
 			</style>
 
 			<div class="container">
         <div class="earth"></div>
-				<div class="greeting">
-          Hi !<br/>I'm Duy Bản IT from the Earth.<br/>Email : duybanit@itshare.pro.vn
+				<p align="center">
+  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
+  <a href="#">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=26F71B&random=false&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!" /></a>
+</p>
         </div>			
         <div class="skills">
           <div class="skills_icon">
