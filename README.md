@@ -1,4 +1,5 @@
 <!-- Duy Bản IT -->
+<p align="center"> <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg --> <a href="#"> <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=029400&background=000000C4&center=true&vCenter=&repeat=&random=&width=435&lines=Hi+!;I'am+Duy+B%E1%BA%A3n+IT;I'am+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;Welcome+to+my+github+page+!" /></a> </p>
 <a href="#" target="_blank">
   <img src="svg/duybanit.svg" width="1000" alt="Duy Bản IT" />
 </a>
