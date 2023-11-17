@@ -2,7 +2,6 @@
 <a href="#" target="_blank">
   <img src="svg/duybanit.svg" width="1000" alt="Duy Bản IT" />
 </a>
-https://readme-typing-svg.herokuapp.com?font=Agbalumo&pause=200&color=26F71B&center=SAI&vCenter=SAI&repeat=%C4%90%C3%9ANG+V%E1%BA%ACY&random=SAI&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!
 <h2 align="center">🛠 Technologies and Tools 🛠
    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
