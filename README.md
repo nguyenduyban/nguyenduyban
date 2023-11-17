@@ -1,6 +1,6 @@
 <!-- Duy Bản IT -->
 <a href="#" target="_blank">
-  <img src="svg/duybanit.svg" width="500" alt="Duy Bản IT" />
+  <img src="svg/duybanit.svg" width="1200" alt="Duy Bản IT" />
 </a>
 
 <h2 align="center">🛠 Technologies and Tools 🛠
