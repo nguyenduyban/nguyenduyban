@@ -70,5 +70,5 @@ Where to find me
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
   <a href="#">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=26F71B&center=SAI&vCenter=SAI&repeat=%C4%90%C3%9ANG+V%E1%BA%ACY&random=SAI&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!" /></a>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=26F71B&random=false&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!" /></a>
 </p>
