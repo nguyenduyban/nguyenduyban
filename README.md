@@ -57,6 +57,7 @@
 <br>
 <h2 align="center">📑 My Favorites Quote 📑</h2>
 <br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="#" target="_blank">
   <img src="svg/duybanit-quotes.svg" width="846" height="150" alt="Duy Bản IT" />
 </a>
