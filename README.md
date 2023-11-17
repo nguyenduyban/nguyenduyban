@@ -67,8 +67,3 @@ Where to find me
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=nguyenduyban&repo=kithuatlaptrinh&theme=shadow_red" />
 </a>
 
-<p align="center">
-  <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-  <a href="#">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=26F71B&random=false&width=435&lines=Hi+!+;I'm+Duy+B%E1%BA%A3n+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;+Welcome+to+my+github+page++!" /></a>
-</p>
