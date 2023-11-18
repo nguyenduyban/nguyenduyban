@@ -1,5 +1,5 @@
 <!-- Duy Bản IT -->
-<h2 align="center"> <a href="#"> <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&duration=4000&color=029400&center=true&vCenter=&repeat=&random=&width=435&lines=Hi+!;I'am+Duy+B%E1%BA%A3n+IT;I'am+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;Welcome+to+my+github+page+!" /></a>
+<h2 align="center"> <a href="#"> <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&size=50&duration=4000&color=25C232&center=true&random=false&width=450&lines=Hi+!;I'm+Duy+B%E1%BA%A3n+IT;I'm+From+the+Earth;Well+come+to+my++github+page+!" /></a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <a href="#" target="_blank">
   <img src="svg/duybanit.svg" width="1000" alt="Duy Bản IT" />
