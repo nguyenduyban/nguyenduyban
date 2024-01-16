@@ -2,9 +2,7 @@
 <br>
 <h2 align="center"> <a href="#"> <img src="https://readme-typing-svg.herokuapp.com?font=Agbalumo&size=34&duration=4000&color=0F8221&center=true&random=false&width=550&lines=Hi+!;I'm+Duy+Ban+IT;I'm+from+the+Earth;Contact+%3A+duybanit%40itshare.pro.vn;Well+come+to+my+github+page+!" /></a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<a href="#" target="_blank">
-  <img src="svg/duybanit.svg" width="1000" alt="Duy Bản IT" />
-</a>
+
 <h2 align="center">🛠 Technologies and Tools 🛠
    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <br>
